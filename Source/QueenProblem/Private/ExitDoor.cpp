@@ -1,8 +1,9 @@
 // Copyright (c) 2019 Vitaly Lifanov <vitaly@lifanoff.ru>
 
+#include "ExitDoor.h"
 #include "GameFramework/WorldSettings.h"
 #include "Kismet/KismetSystemLibrary.h"
-#include "ExitDoor.h"
+
 
 AExitDoor::AExitDoor() {
 	PrimaryActorTick.bCanEverTick = true;

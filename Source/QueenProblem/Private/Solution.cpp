@@ -1,7 +1,7 @@
 // Copyright (c) 2019 Vitaly Lifanov <vitaly@lifanoff.ru>
 
-
 #include "Solution.h"
+
 
 Solution& Solution::operator=(const Solution& solution) {
 	if (this != &solution) {

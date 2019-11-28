@@ -27,7 +27,7 @@ public:
 
 	// Return last solution.
 	UFUNCTION(BlueprintPure, Category = "QueenProblem")
-		inline TArray<int32> GetLastSolution() const;
+		TArray<int32> GetLastSolution() const;
 
 private:
 	void InitSolution();

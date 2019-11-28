@@ -1,10 +1,9 @@
 // Copyright (c) 2019 Vitaly Lifanov <vitaly@lifanoff.ru>
 
-#include <numeric>
-
+#include "Chessboard.h"
 #include "Misc/DateTime.h"
 
-#include "Chessboard.h"
+#include <numeric>
 
 
 AChessboard::AChessboard() {
@@ -24,7 +23,7 @@ TArray<int32> AChessboard::SolveQueenProblem() {
 }
 
 
-inline TArray<int32> AChessboard::GetLastSolution() const {
+TArray<int32> AChessboard::GetLastSolution() const {
 	return m_solution.positions;
 }
 
