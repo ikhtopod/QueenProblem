@@ -1,3 +1,3 @@
 # QueenProblem
 
-Developed with Unreal Engine 4
+Solving the Queen problem using the Annealing simulation algorithm. Developed with Unreal Engine 4.
